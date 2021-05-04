@@ -43,7 +43,7 @@
     <calcite.version>1.16.0-201908081805070805-cb74ee3</calcite.version>
     <db2jcc.version>4.23.42</db2jcc.version>
     <derby.version>10.14.2.0</derby.version>
-    <jcommander.version>1.71-1499290832-ab3e8cf</jcommander.version>
+    <jcommander.version>1.81</jcommander.version>
     <foodmart-data-hsqldb.version>0.3</foodmart-data-hsqldb.version>
     <fmpp.version>0.9.15</fmpp.version>
     <freemarker.version>2.3.28</freemarker.version>
@@ -90,7 +90,7 @@
     <!-- IMPORTANT NOTE: always use the same version of lucene as elasticsearch -->
     <lucene.version>6.6.0</lucene.version>
 
-    <surefire.extra.argLine></surefire.extra.argLine>
+    <surefire.extra.argLine/>
 
     <target.gen.source.path>${project.basedir}/target/generated-sources</target.gen.source.path>
     <proto.cas.path>${project.basedir}/src/main/protobuf/</proto.cas.path>
