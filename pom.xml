@@ -72,7 +72,7 @@
     <protobuf.version>2.5.0</protobuf.version>
     <protostuff.version>1.4.4</protostuff.version>
     <scott-data-hsqldb.version>0.1</scott-data-hsqldb.version>
-    <slf4j.version>1.7.10</slf4j.version>
+    <slf4j.version>1.7.30</slf4j.version>
     <twill.version>0.11.0-201706241649560687-1b32fe4e</twill.version>
     <zkclient.version>0.10</zkclient.version>
     <zookeeper.version>3.4.10</zookeeper.version>
@@ -90,7 +90,7 @@
     <!-- IMPORTANT NOTE: always use the same version of lucene as elasticsearch -->
     <lucene.version>6.6.0</lucene.version>
 
-    <surefire.extra.argLine></surefire.extra.argLine>
+    <surefire.extra.argLine/>
 
     <target.gen.source.path>${project.basedir}/target/generated-sources</target.gen.source.path>
     <proto.cas.path>${project.basedir}/src/main/protobuf/</proto.cas.path>
