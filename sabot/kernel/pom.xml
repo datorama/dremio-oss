@@ -50,7 +50,7 @@
     <dependency>
         <groupId>com.yahoo.datasketches</groupId>
         <artifactId>sketches-core</artifactId>
-        <version>0.11.1-dremio-01</version>
+        <version>0.13.4</version>
     </dependency>
 
     <dependency>
