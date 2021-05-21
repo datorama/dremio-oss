@@ -90,7 +90,7 @@
     <!-- IMPORTANT NOTE: always use the same version of lucene as elasticsearch -->
     <lucene.version>6.6.0</lucene.version>
 
-    <surefire.extra.argLine></surefire.extra.argLine>
+    <surefire.extra.argLine/>
 
     <target.gen.source.path>${project.basedir}/target/generated-sources</target.gen.source.path>
     <proto.cas.path>${project.basedir}/src/main/protobuf/</proto.cas.path>
@@ -2485,7 +2485,7 @@ limitations under the License.
       <dependency>
         <groupId>org.bouncycastle</groupId>
         <artifactId>bcpkix-jdk15on</artifactId>
-        <version>1.61</version>
+        <version>1.66</version>
       </dependency>
       <dependency>
         <groupId>org.hamcrest</groupId>
